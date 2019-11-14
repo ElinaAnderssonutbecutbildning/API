@@ -1,0 +1,26 @@
+# Skapa en local git
+git init
+
+# lägg till alla filer i locol git
+git add .
+
+# skapa en sparningspunkter (commit)
+git commit -m "meddelande"
+
+" synka local git med github
+git push origin master
+
+
+############################################
+
+# lägg till en github repo
+git remote add origin https://urlentilldingit
+
+#############################################
+
+#hämta hem de senaste filerna från github
+git pull origin master 
+
+############################################
+# hämta hem ett helt projekt på nytt
+git clone https://github.com/datanorden-hans/net-htmlcss3.git
